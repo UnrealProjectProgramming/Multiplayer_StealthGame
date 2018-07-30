@@ -1,5 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-  Target is up to date
+  Parsing headers for FPSGameEditor
+    Running UnrealHeaderTool "N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\FPSGame.uproject" "N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSGameEditor in 5.7020441 seconds
+  Performing 5 actions (9 in parallel)
+  FPSExtractionZone.gen.cpp
+  FPSExtractionZone.cpp
+  FPSGame.init.gen.cpp
+  [4/5] Link UE4Editor-FPSGame-1782.dll
+  [5/5] Link UE4Editor-FPSGame-1782.lib
+     Creating library N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.lib and object N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.exp
+     Creating library N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.suppressed.lib and object N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.suppressed.exp
   Deploying FPSGameEditor Win64 Development...
-  Total build time: 0.63 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 11.15 seconds (Local executor: 4.74 seconds)

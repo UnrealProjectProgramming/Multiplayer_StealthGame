@@ -21,7 +21,6 @@ AFPSBlackHole::AFPSBlackHole()
 	InnerSphereComponent->SetSphereRadius(100);
 
 	// Bind to Event
-	InnerSphereComponent->OnComponentBeginOverlap.AddDynamic(this, &AFPSBlackHole::OverlapInnerSphere);
 	OuterSphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("OuterSphereComp"));
 	OuterSphereComponent->SetSphereRadius(3000);
 
@@ -32,20 +31,14 @@ AFPSBlackHole::AFPSBlackHole()
 }
 
 
+
+
 // Called when the game starts or when spawned
 void AFPSBlackHole::BeginPlay()
 {
 	Super::BeginPlay();
 }
 
-void AFPSBlackHole::OverlapInnerSphere(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
-	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	if (OtherActor)
-	{
-		OtherActor->Destroy();
-	}
-}
 
 // Called every frame
 void AFPSBlackHole::Tick(float DeltaTime)
