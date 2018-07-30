@@ -458,3 +458,54 @@ LogInit: Object subsystem initialized
 [2018.07.30-22.18.04:294][793]LogSavePackage: Save=46.73ms
 [2018.07.30-22.18.04:294][793]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData688EAE474097CB72089A4C8EE9C955FE.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
 [2018.07.30-22.18.04:295][793]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.07.30-22.21.32:190][642]Cmd: EDCALLBACK SURFPROPS
+[2018.07.30-22.21.33:085][743]Cmd: EDCALLBACK SURFPROPS
+[2018.07.30-22.21.33:737][817]Cmd: EDCALLBACK SURFPROPS
+[2018.07.30-22.51.31:372][292]LogHotReload: New module detected: UE4Editor-FPSGame-2156.dll
+[2018.07.30-22.51.33:043][298]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.30-22.51.33:106][298]LogClass: Could not find existing class FPSGameMode in package /Script/FPSGame for HotReload, assuming new class
+[2018.07.30-22.51.33:106][298]LogClass: Function MissionComplete is new.
+[2018.07.30-22.51.33:110][298]LogHotReload: Re-instancing FPSBlackHole after hot-reload.
+[2018.07.30-22.51.33:201][298]LogHotReload: Re-instancing FPSExtractionZone after hot-reload.
+[2018.07.30-22.51.33:451][298]LogHotReload: Re-instancing FPSGameMode after hot-reload.
+[2018.07.30-22.51.33:515][298]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2018.07.30-22.51.33:517][298]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.07.30-22.51.33:806][298]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2372 classes and 526 folders.
+[2018.07.30-22.51.33:863][298]Display: HotReload took  0.8s.
+[2018.07.30-23.06.19:800][  1]LogHotReload: New module detected: UE4Editor-FPSGame-1902.dll
+[2018.07.30-23.06.20:810][  5]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.30-23.06.20:881][  5]LogHotReload: Re-instancing FPSBlackHole after hot-reload.
+[2018.07.30-23.06.20:964][  5]LogHotReload: Re-instancing FPSExtractionZone after hot-reload.
+[2018.07.30-23.06.21:259][  5]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2018.07.30-23.06.21:261][  5]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2018.07.30-23.06.21:589][  5]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2372 classes and 526 folders.
+[2018.07.30-23.06.21:593][  5]Display: HotReload took  0.8s.
+[2018.07.30-23.08.50:271][701]LogHotReload: New module detected: UE4Editor-FPSGame-4323.dll
+[2018.07.30-23.08.50:950][704]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.30-23.08.51:049][704]LogHotReload: Re-instancing FPSBlackHole after hot-reload.
+[2018.07.30-23.08.51:141][704]LogHotReload: Re-instancing FPSExtractionZone after hot-reload.
+[2018.07.30-23.08.51:528][704]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2018.07.30-23.08.51:530][704]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2018.07.30-23.08.51:813][704]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2372 classes and 526 folders.
+[2018.07.30-23.08.51:817][704]Display: HotReload took  0.9s.
+[2018.07.30-23.08.56:384][833]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.30-23.08.56:477][833]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.07.30-23.08.56:493][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.30-23.08.56:518][833]PIE: New page: PIE session: FirstPersonExampleMap (31 Jul 2018 03:08:56)
+[2018.07.30-23.08.56:531][833]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.07.30-23.08.56:646][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115539s)
+[2018.07.30-23.08.56:736][833]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.07.30-23.08.56:760][833]LogPlayLevel: PIE: World Init took: (0.101748s)
+[2018.07.30-23.08.56:761][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.243088s)
+[2018.07.30-23.08.56:885][833]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.30-23.08.56:891][833]LogInit: FAudioDevice initialized.
+[2018.07.30-23.08.56:960][833]LogLoad: Game class is 'BP_GameMode_C'
+[2018.07.30-23.08.57:127][833]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.07.31-01.08.57
+[2018.07.30-23.08.57:128][833]LogWorld: Bringing up level for play took: 0.124862
+[2018.07.30-23.08.57:181][833]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.942
+[2018.07.30-23.08.57:219][833]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.07.30-23.09.02:437][423]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.09.05:929][842]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.09.11:460][486]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.09.15:536][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.07.30-23.09.15:700][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
