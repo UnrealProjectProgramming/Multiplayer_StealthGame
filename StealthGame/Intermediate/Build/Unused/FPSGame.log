@@ -1,4 +1,5 @@
-﻿  Compiling game modules for hot reload
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
   Target is up to date
   Deploying FPSGameEditor Win64 Development...
-  Total build time: 0.59 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 0.63 seconds (NoActionsToExecute executor: 0.00 seconds)

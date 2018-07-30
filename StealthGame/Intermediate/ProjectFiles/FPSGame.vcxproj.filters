@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\FPSGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{3106CAB1-A6C7-40C0-BFF5-6A8A983A1120}</UniqueIdentifier>
+			<UniqueIdentifier>{015F5EEC-F11F-409A-88D4-F5BB3CB8EFED}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FPSGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{62C6A047-3C9F-401F-BC64-7BC1C205F7E7}</UniqueIdentifier>
+			<UniqueIdentifier>{D520DAB0-F03A-454A-B85F-B893A4E5E7AC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\FPSGame">
-			<UniqueIdentifier>{3F19690E-04FA-4960-B5BA-F69716F3729A}</UniqueIdentifier>
+			<UniqueIdentifier>{D57733E8-B26B-4A73-B4F7-15313277EA68}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FPSGame\FPSGame.Build.cs">
 			<Filter>Source\FPSGame</Filter>
@@ -40,8 +40,11 @@
 			<Filter>Source\FPSGame</Filter>
 		</ClInclude >
 		<Filter Include="Source\FPSGame\Private">
-			<UniqueIdentifier>{DF4F08FF-54F5-4F54-9BF7-2F10C7AF179C}</UniqueIdentifier>
+			<UniqueIdentifier>{892CBFB6-3450-4EF0-A2ED-DDBC9AED29A3}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\FPSGame\Private\FPSBlackHole.cpp">
+			<Filter>Source\FPSGame\Private</Filter>
+		</ClCompile >
 		<ClCompile Include="..\..\Source\FPSGame\Private\FPSCharacter.cpp">
 			<Filter>Source\FPSGame\Private</Filter>
 		</ClCompile >
@@ -58,8 +61,11 @@
 			<Filter>Source\FPSGame\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\FPSGame\Public">
-			<UniqueIdentifier>{9F30D43B-1B75-41A2-9498-2880E57BD95D}</UniqueIdentifier>
+			<UniqueIdentifier>{81F3CB7B-AFFD-464A-B1EB-E751B306185F}</UniqueIdentifier>
 		</Filter>
+		<ClInclude Include="..\..\Source\FPSGame\Public\FPSBlackHole.h">
+			<Filter>Source\FPSGame\Public</Filter>
+		</ClInclude >
 		<ClInclude Include="..\..\Source\FPSGame\Public\FPSCharacter.h">
 			<Filter>Source\FPSGame\Public</Filter>
 		</ClInclude >
