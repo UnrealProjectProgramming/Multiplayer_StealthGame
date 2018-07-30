@@ -509,3 +509,132 @@ LogInit: Object subsystem initialized
 [2018.07.30-23.09.11:460][486]LogTemp: Warning: Overlaping with extraction zone
 [2018.07.30-23.09.15:536][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
 [2018.07.30-23.09.15:700][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.07.30-23.36.05:603][ 36]BlueprintLog: New page: Compile BP_ExtractionZone
+[2018.07.30-23.36.22:750][811]BlueprintLog: New page: Compile BP_GameMode
+[2018.07.30-23.36.23:004][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2018.07.30-23.36.23:033][811]LogSavePackage: Save=27.18ms
+[2018.07.30-23.36.23:034][811]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_GameMode6790882F411E577E3D133D9048C17D8E.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2018.07.30-23.36.23:035][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset
+[2018.07.30-23.36.23:379][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2018.07.30-23.36.23:387][846]LogSavePackage: Save=5.96ms
+[2018.07.30-23.36.23:387][846]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_GameModeF3A76EFB41F9215BA64BF8A160CA47A8.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2018.07.30-23.36.23:388][846]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset
+[2018.07.30-23.36.54:943][510]LogSavePackage: Save=222.67ms
+[2018.07.30-23.36.54:943][510]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_Auto1483BA3304DAF725DECF5DE9B5442D8B0.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.07.30-23.36.54:944][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap
+[2018.07.30-23.36.54:945][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPersonExampleMap' took 0.332
+[2018.07.30-23.36.54:945][510]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.332
+[2018.07.30-23.37.18:243][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_MissionComplete" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset" SILENT=true
+[2018.07.30-23.37.18:294][ 75]LogSavePackage: Save=49.02ms
+[2018.07.30-23.37.18:294][ 75]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_MissionComplete281AB34144E9AFE856351CB2E6C43F8B.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset'
+[2018.07.30-23.37.18:295][ 75]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset
+[2018.07.30-23.37.18:998][121]LogSavePackage: Save=216.01ms
+[2018.07.30-23.37.18:998][121]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap6521A35B41F7DD9251420B99AC3497DE.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.07.30-23.37.19:000][121]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap
+[2018.07.30-23.37.19:111][121]LogSavePackage: Save=50.02ms
+[2018.07.30-23.37.19:111][121]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData4C4F0DD0427FA90CC5FF888E91769AAF.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.07.30-23.37.19:112][121]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.07.30-23.37.59:264][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_MissionComplete" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset" SILENT=true
+[2018.07.30-23.37.59:272][734]LogSavePackage: Save=5.10ms
+[2018.07.30-23.37.59:272][734]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_MissionComplete7849A49948B3AF92DACF1B95EC92B259.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset'
+[2018.07.30-23.37.59:274][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset
+[2018.07.30-23.38.04:360][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_MissionComplete" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset" SILENT=true
+[2018.07.30-23.38.04:368][340]LogSavePackage: Save=5.61ms
+[2018.07.30-23.38.04:368][340]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_MissionComplete8121CAFE4C35D01D9225D5AC5C8D7DDF.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset'
+[2018.07.30-23.38.04:369][340]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset
+[2018.07.30-23.38.05:839][516]BlueprintLog: New page: Compile WBP_MissionComplete
+[2018.07.30-23.38.06:259][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_MissionComplete" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset" SILENT=true
+[2018.07.30-23.38.06:267][556]LogSavePackage: Save=5.65ms
+[2018.07.30-23.38.06:267][556]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_MissionComplete5E6946DA418C3DBE9CC30991CF8D24DB.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset'
+[2018.07.30-23.38.06:268][556]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset
+[2018.07.30-23.38.06:822][622]BlueprintLog: New page: Compile WBP_MissionComplete
+[2018.07.30-23.38.07:301][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_MissionComplete" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset" SILENT=true
+[2018.07.30-23.38.07:309][672]LogSavePackage: Save=5.59ms
+[2018.07.30-23.38.07:310][672]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_MissionComplete1A3AF9914F295A52346ACDB47B460FA5.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset'
+[2018.07.30-23.38.07:310][672]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset
+[2018.07.30-23.38.12:604][307]BlueprintLog: New page: Compile WBP_MissionComplete
+[2018.07.30-23.38.13:170][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_MissionComplete" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset" SILENT=true
+[2018.07.30-23.38.13:178][367]LogSavePackage: Save=5.69ms
+[2018.07.30-23.38.13:178][367]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_MissionComplete8260378146605BBED981AA884F3313C1.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset'
+[2018.07.30-23.38.13:179][367]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_MissionComplete.uasset
+[2018.07.30-23.38.14:919][537]LogSavePackage: Save=214.46ms
+[2018.07.30-23.38.14:919][537]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMapE6B632454C64406437BC3EB6B3CF1D9F.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.07.30-23.38.14:921][537]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap
+[2018.07.30-23.38.14:983][537]LogSavePackage: Save=47.07ms
+[2018.07.30-23.38.14:984][537]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltDataD06D376341916AB80024DAB4D4F49BC1.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.07.30-23.38.14:985][537]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.07.30-23.38.21:730][341]BlueprintLog: New page: Compile WBP_MissionComplete
+[2018.07.30-23.38.23:960][602]BlueprintLog: New page: Compile BP_ExtractionZone
+[2018.07.30-23.38.24:291][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExtractionZone" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset" SILENT=true
+[2018.07.30-23.38.24:299][608]LogSavePackage: Save=5.67ms
+[2018.07.30-23.38.24:299][608]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_ExtractionZone8F36EC124451D0842A07DF90ECA5AC98.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.07.30-23.38.24:300][608]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.07.30-23.38.24:509][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExtractionZone" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset" SILENT=true
+[2018.07.30-23.38.24:518][632]LogSavePackage: Save=5.95ms
+[2018.07.30-23.38.24:518][632]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_ExtractionZone9CCD81034D1BD35B1284C9AF2AB0E20B.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.07.30-23.38.24:518][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.07.30-23.41.38:495][200]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.30-23.41.46:456][136]LogHotReload: New module detected: UE4Editor-FPSGame-1033.dll
+[2018.07.30-23.41.47:032][186]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.30-23.41.47:100][186]LogClass: Could not find existing class FPSExtractionZone in package /Script/FPSGame for HotReload, assuming new class
+[2018.07.30-23.41.47:100][186]LogClass: Function HandleOverlap is new.
+[2018.07.30-23.41.47:107][186]LogHotReload: Re-instancing FPSBlackHole after hot-reload.
+[2018.07.30-23.41.47:195][186]LogHotReload: Re-instancing FPSExtractionZone after hot-reload.
+[2018.07.30-23.41.47:522][186]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2018.07.30-23.41.47:525][186]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.07.30-23.41.47:746][186]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2372 classes and 526 folders.
+[2018.07.30-23.41.47:749][186]Display: HotReload took  0.7s.
+[2018.07.30-23.41.50:266][485]BlueprintLog: New page: Compile BP_GameMode
+[2018.07.30-23.41.50:486][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2018.07.30-23.41.50:498][485]LogSavePackage: Save=8.25ms
+[2018.07.30-23.41.50:498][485]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_GameModeFDF7B85046481178EC3B809B223F9CCA.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2018.07.30-23.41.50:499][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset
+[2018.07.30-23.41.50:618][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2018.07.30-23.41.50:629][497]LogSavePackage: Save=8.21ms
+[2018.07.30-23.41.50:629][497]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_GameModeEC1ECA4A4A3584BAA36248A08187926B.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2018.07.30-23.41.50:629][497]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset
+[2018.07.30-23.41.50:797][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2018.07.30-23.41.50:807][515]LogSavePackage: Save=7.95ms
+[2018.07.30-23.41.50:808][515]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_GameMode74EF320E45F985D204E9FDAAFF1D0833.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2018.07.30-23.41.50:808][515]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_GameMode.uasset
+[2018.07.30-23.41.54:549][908]LogSavePackage: Save=239.55ms
+[2018.07.30-23.41.54:549][908]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMapCC8A5C8846D354CC577B2A82136156C4.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.07.30-23.41.54:551][908]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap
+[2018.07.30-23.41.54:564][908]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.317
+[2018.07.30-23.42.33:313][735]BlueprintLog: New page: Compile BP_ExtractionZone
+[2018.07.30-23.42.33:651][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExtractionZone" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset" SILENT=true
+[2018.07.30-23.42.33:659][735]LogSavePackage: Save=5.65ms
+[2018.07.30-23.42.33:659][735]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_ExtractionZone572065F0439C09AF5EFA9EBE7B6B5711.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.07.30-23.42.33:660][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.07.30-23.42.33:938][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExtractionZone" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset" SILENT=true
+[2018.07.30-23.42.33:946][763]LogSavePackage: Save=5.72ms
+[2018.07.30-23.42.33:946][763]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_ExtractionZone7BB9D744495AC52AFBE62A9C7983ABA2.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.07.30-23.42.33:947][763]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.07.30-23.42.37:905][197]LogSavePackage: Save=237.12ms
+[2018.07.30-23.42.37:905][197]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap299B2E2340D77AE1641520B307954E84.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.07.30-23.42.37:907][197]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap
+[2018.07.30-23.42.37:920][197]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.307
+[2018.07.30-23.42.38:583][274]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.30-23.42.38:602][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.07.30-23.42.38:602][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.30-23.42.38:602][274]PIE: New page: PIE session: FirstPersonExampleMap (31 Jul 2018 03:42:38)
+[2018.07.30-23.42.38:602][274]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.07.30-23.42.38:617][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014793s)
+[2018.07.30-23.42.38:618][274]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.07.30-23.42.38:619][274]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2018.07.30-23.42.38:619][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016256s)
+[2018.07.30-23.42.38:651][274]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.30-23.42.38:657][274]LogInit: FAudioDevice initialized.
+[2018.07.30-23.42.38:686][274]LogLoad: Game class is 'BP_GameMode_C'
+[2018.07.30-23.42.38:688][274]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.07.31-01.42.38
+[2018.07.30-23.42.38:689][274]LogWorld: Bringing up level for play took: 0.001581
+[2018.07.30-23.42.38:690][274]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.452
+[2018.07.30-23.42.38:690][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.07.30-23.42.44:732][954]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.42.46:383][152]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.42.46:932][216]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.42.47:582][294]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.42.49:132][480]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.42.53:974][ 61]LogTemp: Warning: Overlaping with extraction zone
+[2018.07.30-23.43.00:049][790]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.07.30-23.43.00:084][790]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'

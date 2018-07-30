@@ -7,13 +7,13 @@
 #include "FPSCharacter.h"
 #include "FPSGameMode.h"
 #include "GameFramework/Actor.h"
-
+#include "Kismet/GameplayStatics.h"
 
 
 // Sets default values
 AFPSExtractionZone::AFPSExtractionZone()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
 	OverlapComp = CreateDefaultSubobject<UBoxComponent>(TEXT("Overlap Component"));
@@ -35,15 +35,21 @@ void AFPSExtractionZone::HandleOverlap(UPrimitiveComponent* OverlappedComponent,
 {
 	UE_LOG(LogTemp, Warning, TEXT("Overlaping with extraction zone"));
 	AFPSCharacter* MyPawn = Cast<AFPSCharacter>(OtherActor);
+	if (!MyPawn) { return; }
 
-	if (MyPawn && MyPawn->bIsCarryingObjective)
+	AFPSGameMode* MyGameMode = Cast<AFPSGameMode>(GetWorld()->GetAuthGameMode());
+	if (!MyGameMode) { return; }
+
+	if (MyPawn->bIsCarryingObjective)
 	{
-		AFPSGameMode* MyGameMode = Cast<AFPSGameMode>(GetWorld()->GetAuthGameMode());
-		if (MyGameMode)
-		{
-			MyGameMode->MissionComplete(MyPawn);
-		}
+		MyGameMode->MissionComplete(MyPawn);
 	}
+	else
+	{
+		UGameplayStatics::PlaySound2D(this, OverlapSound);
+	}
+
+
 
 }
 
