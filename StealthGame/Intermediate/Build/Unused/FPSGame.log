@@ -2,14 +2,14 @@
   Compiling game modules for hot reload
   Parsing headers for FPSGameEditor
     Running UnrealHeaderTool "N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\FPSGame.uproject" "N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FPSGameEditor in 5.7020441 seconds
+  Reflection code generated for FPSGameEditor in 6.5942366 seconds
   Performing 5 actions (9 in parallel)
-  FPSExtractionZone.gen.cpp
   FPSExtractionZone.cpp
+  FPSExtractionZone.gen.cpp
   FPSGame.init.gen.cpp
-  [4/5] Link UE4Editor-FPSGame-1782.dll
-  [5/5] Link UE4Editor-FPSGame-1782.lib
-     Creating library N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.lib and object N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.exp
-     Creating library N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.suppressed.lib and object N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1782.suppressed.exp
+  [4/5] Link UE4Editor-FPSGame-7777.dll
+  [5/5] Link UE4Editor-FPSGame-7777.lib
+     Creating library N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7777.lib and object N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7777.exp
+     Creating library N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7777.suppressed.lib and object N:\Programming\Unreal\Multiplayer_StealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7777.suppressed.exp
   Deploying FPSGameEditor Win64 Development...
-  Total build time: 11.15 seconds (Local executor: 4.74 seconds)
+  Total build time: 12.03 seconds (Local executor: 4.74 seconds)
