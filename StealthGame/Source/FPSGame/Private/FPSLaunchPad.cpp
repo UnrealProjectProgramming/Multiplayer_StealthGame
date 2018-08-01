@@ -36,14 +36,16 @@ void AFPSLaunchPad::LaunchOverlapedObjects(UPrimitiveComponent* OverlappedCompon
 	FRotator LaunchDirection = GetActorRotation();
 	LaunchDirection.Pitch += LaunchPitchAngle;
 	FVector LaunchVelocity = LaunchDirection.Vector() * LaunchStrength;
-	AFPSCharacter* MyCharacter = Cast<AFPSCharacter>(OtherActor);
-	if (!MyCharacter) { return; }
+	ACharacter* MyCharacter = Cast<ACharacter>(OtherActor);
 
-	MyCharacter->LaunchCharacter(LaunchVelocity, true, true);
-	//Spawn FX
-	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ActivateLaunchPadEmitter, GetActorLocation());
+	if (MyCharacter)
+	{
 
-	if (OtherComp && OtherComp->IsSimulatingPhysics())
+		MyCharacter->LaunchCharacter(LaunchVelocity, true, true);
+		//Spawn FX
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ActivateLaunchPadEmitter, GetActorLocation());
+	}
+	else if (OtherComp && OtherComp->IsSimulatingPhysics())
 	{
 		OtherComp->AddImpulse(LaunchVelocity, NAME_None, true);
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ActivateLaunchPadEmitter, GetActorLocation());
