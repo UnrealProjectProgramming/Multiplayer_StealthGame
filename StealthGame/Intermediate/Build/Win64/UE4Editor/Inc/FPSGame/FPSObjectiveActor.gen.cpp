@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSObjectiveActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSObjectiveActor, 1852811079);
+	IMPLEMENT_CLASS(AFPSObjectiveActor, 774802418);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSObjectiveActor(Z_Construct_UClass_AFPSObjectiveActor, &AFPSObjectiveActor::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFPSObjectiveActor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSObjectiveActor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

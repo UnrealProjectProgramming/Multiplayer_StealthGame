@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -60,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSHUD, 2506633132);
+	IMPLEMENT_CLASS(AFPSHUD, 2205141512);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSHUD(Z_Construct_UClass_AFPSHUD, &AFPSHUD::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFPSHUD"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSHUD);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

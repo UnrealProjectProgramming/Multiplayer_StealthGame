@@ -40,7 +40,6 @@ void AFPSLaunchPad::LaunchOverlapedObjects(UPrimitiveComponent* OverlappedCompon
 
 	if (MyCharacter)
 	{
-
 		MyCharacter->LaunchCharacter(LaunchVelocity, true, true);
 		//Spawn FX
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ActivateLaunchPadEmitter, GetActorLocation());

@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -21,7 +21,7 @@ class APawn;
 		P_GET_OBJECT(APawn,Z_Param_InstigatorPawn); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->MissionComplete(Z_Param_InstigatorPawn); \
+		P_THIS->MissionComplete(Z_Param_InstigatorPawn); \
 		P_NATIVE_END; \
 	}
 
@@ -33,7 +33,7 @@ class APawn;
 		P_GET_OBJECT(APawn,Z_Param_InstigatorPawn); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->MissionComplete(Z_Param_InstigatorPawn); \
+		P_THIS->MissionComplete(Z_Param_InstigatorPawn); \
 		P_NATIVE_END; \
 	}
 

@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -28,7 +28,7 @@ struct FHitResult;
 		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
 		P_NATIVE_END; \
 	}
 
@@ -44,7 +44,7 @@ struct FHitResult;
 		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
 		P_NATIVE_END; \
 	}
 

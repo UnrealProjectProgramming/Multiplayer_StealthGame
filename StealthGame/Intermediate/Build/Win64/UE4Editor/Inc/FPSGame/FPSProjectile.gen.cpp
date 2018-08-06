@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -29,7 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSProjectile() {}
 	{
 		UClass* Class = AFPSProjectile::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "OnHit", (Native)&AFPSProjectile::execOnHit },
+			{ "OnHit", &AFPSProjectile::execOnHit },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -146,7 +146,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSProjectile, 4103007678);
+	IMPLEMENT_CLASS(AFPSProjectile, 3033514251);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSProjectile(Z_Construct_UClass_AFPSProjectile, &AFPSProjectile::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFPSProjectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSProjectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
