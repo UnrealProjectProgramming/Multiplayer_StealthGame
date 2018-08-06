@@ -11,6 +11,7 @@ AFPSAIGuard::AFPSAIGuard()
 	PrimaryActorTick.bCanEverTick = true;
 
 	SensingComponent = CreateDefaultSubobject<UPawnSensingComponent>(TEXT("Sensing Component"));
+	SensingComponent->OnSeePawn.AddDynamic(this, &AFPSAIGuard::OnPawnSeen);
 }
 
 // Called when the game starts or when spawned
@@ -18,6 +19,14 @@ void AFPSAIGuard::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+void AFPSAIGuard::OnPawnSeen(APawn* SeenPawn)
+{
+	if (SeenPawn)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Seen Component:  %s"), *SeenPawn->GetName());
+	}
 }
 
 // Called every frame

@@ -21,6 +21,9 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UFUNCTION()
+	void OnPawnSeen(APawn* SeenPawn);
+
 protected:
 
 	UPROPERTY(VisibleAnywhere, Category = "Component")
