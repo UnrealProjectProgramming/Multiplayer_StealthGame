@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
@@ -52,21 +52,19 @@ struct FHitResult;
 #define StealthGame_Source_FPSGame_Public_FPSProjectile_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSProjectile(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSProjectile(); \
+	friend struct Z_Construct_UClass_AFPSProjectile_Statics; \
 public: \
-	DECLARE_CLASS(AFPSProjectile, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSProjectile) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSProjectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSProjectile)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSProjectile_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAFPSProjectile(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSProjectile(); \
+	friend struct Z_Construct_UClass_AFPSProjectile_Statics; \
 public: \
-	DECLARE_CLASS(AFPSProjectile, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSProjectile) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSProjectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSProjectile)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSProjectile_h_17_STANDARD_CONSTRUCTORS \

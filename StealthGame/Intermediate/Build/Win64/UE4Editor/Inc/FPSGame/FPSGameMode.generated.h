@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class APawn;
@@ -49,21 +49,19 @@ class APawn;
 #define StealthGame_Source_FPSGame_Public_FPSGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSGameMode(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSGameMode(); \
+	friend struct Z_Construct_UClass_AFPSGameMode_Statics; \
 public: \
-	DECLARE_CLASS(AFPSGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSGameMode) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSGameMode)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSGameMode_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAFPSGameMode(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSGameMode(); \
+	friend struct Z_Construct_UClass_AFPSGameMode_Statics; \
 public: \
-	DECLARE_CLASS(AFPSGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSGameMode) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSGameMode)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSGameMode_h_12_STANDARD_CONSTRUCTORS \

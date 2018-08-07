@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef FPSGAME_FPSCharacter_generated_h
@@ -18,21 +18,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSCharacter(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSCharacter(); \
+	friend struct Z_Construct_UClass_AFPSCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AFPSCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSCharacter)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesAFPSCharacter(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSCharacter(); \
+	friend struct Z_Construct_UClass_AFPSCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AFPSCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSCharacter)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_STANDARD_CONSTRUCTORS \
@@ -62,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSCharacter); \
 #define StealthGame_Source_FPSGame_Public_FPSCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1PComponent() { return STRUCT_OFFSET(AFPSCharacter, Mesh1PComponent); } \
 	FORCEINLINE static uint32 __PPO__GunMeshComponent() { return STRUCT_OFFSET(AFPSCharacter, GunMeshComponent); } \
-	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AFPSCharacter, CameraComponent); }
+	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(AFPSCharacter, CameraComponent); } \
+	FORCEINLINE static uint32 __PPO__NoiseEmitterComponent() { return STRUCT_OFFSET(AFPSCharacter, NoiseEmitterComponent); }
 
 
 #define StealthGame_Source_FPSGame_Public_FPSCharacter_h_17_PROLOG

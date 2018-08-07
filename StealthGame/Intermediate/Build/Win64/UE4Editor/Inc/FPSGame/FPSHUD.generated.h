@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef FPSGAME_FPSHUD_generated_h
@@ -18,21 +18,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define StealthGame_Source_FPSGame_Public_FPSHUD_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSHUD(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSHUD(); \
+	friend struct Z_Construct_UClass_AFPSHUD_Statics; \
 public: \
-	DECLARE_CLASS(AFPSHUD, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSHUD) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSHUD, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSHUD)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSHUD_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAFPSHUD(); \
-	friend FPSGAME_API class UClass* Z_Construct_UClass_AFPSHUD(); \
+	friend struct Z_Construct_UClass_AFPSHUD_Statics; \
 public: \
-	DECLARE_CLASS(AFPSHUD, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), 0, TEXT("/Script/FPSGame"), NO_API) \
-	DECLARE_SERIALIZER(AFPSHUD) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AFPSHUD, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/FPSGame"), NO_API) \
+	DECLARE_SERIALIZER(AFPSHUD)
 
 
 #define StealthGame_Source_FPSGame_Public_FPSHUD_h_14_STANDARD_CONSTRUCTORS \

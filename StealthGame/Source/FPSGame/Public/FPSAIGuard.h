@@ -24,6 +24,9 @@ protected:
 	UFUNCTION()
 	void OnPawnSeen(APawn* SeenPawn);
 
+	UFUNCTION()
+	void OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, float Volume);
+
 protected:
 
 	UPROPERTY(VisibleAnywhere, Category = "Component")
