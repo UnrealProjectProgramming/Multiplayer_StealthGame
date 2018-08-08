@@ -42,7 +42,7 @@ void AFPSExtractionZone::HandleOverlap(UPrimitiveComponent* OverlappedComponent,
 
 	if (MyPawn->bIsCarryingObjective)
 	{
-		MyGameMode->MissionComplete(MyPawn);
+		MyGameMode->MissionComplete(MyPawn, true);
 	}
 	else
 	{

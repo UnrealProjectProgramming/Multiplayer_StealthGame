@@ -19,9 +19,10 @@ class APawn;
 	DECLARE_FUNCTION(execMissionComplete) \
 	{ \
 		P_GET_OBJECT(APawn,Z_Param_InstigatorPawn); \
+		P_GET_UBOOL(Z_Param_bMissionSuccess); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->MissionComplete(Z_Param_InstigatorPawn); \
+		P_THIS->MissionComplete(Z_Param_InstigatorPawn,Z_Param_bMissionSuccess); \
 		P_NATIVE_END; \
 	}
 
@@ -31,9 +32,10 @@ class APawn;
 	DECLARE_FUNCTION(execMissionComplete) \
 	{ \
 		P_GET_OBJECT(APawn,Z_Param_InstigatorPawn); \
+		P_GET_UBOOL(Z_Param_bMissionSuccess); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->MissionComplete(Z_Param_InstigatorPawn); \
+		P_THIS->MissionComplete(Z_Param_InstigatorPawn,Z_Param_bMissionSuccess); \
 		P_NATIVE_END; \
 	}
 
@@ -42,6 +44,7 @@ class APawn;
 	struct FPSGameMode_eventOnMissionCompleted_Parms \
 	{ \
 		APawn* InstigatorPawn; \
+		bool bMissionSuccess; \
 	};
 
 
