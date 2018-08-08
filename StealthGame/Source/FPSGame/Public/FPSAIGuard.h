@@ -27,10 +27,20 @@ protected:
 	UFUNCTION()
 	void OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, float Volume);
 
+	UFUNCTION()
+	void ResetOrientation();
+
 protected:
 
 	UPROPERTY(VisibleAnywhere, Category = "Component")
 	UPawnSensingComponent* SensingComponent = nullptr;
+
+	UPROPERTY()
+	FRotator OriginalRotation;
+
+	UPROPERTY()
+	FTimerHandle TimerHandle_ResetOrientation;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
