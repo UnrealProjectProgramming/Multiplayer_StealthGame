@@ -16,6 +16,8 @@ AFPSAIGuard::AFPSAIGuard()
 
 	SensingComponent->OnSeePawn.AddDynamic(this, &AFPSAIGuard::OnPawnSeen);
 	SensingComponent->OnHearNoise.AddDynamic(this, &AFPSAIGuard::OnNoiseHeard);
+
+	GuardState = AIState::Idle;
 }
 
 // Called when the game starts or when spawned
@@ -33,10 +35,16 @@ void AFPSAIGuard::OnPawnSeen(APawn* SeenPawn)
 	if (!MyGameMode) { return; }
 
 	MyGameMode->MissionComplete(SeenPawn, false);
+
+	SetGuardState(AIState::Alerted);
 }
 
 void AFPSAIGuard::OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, float Volume)
 {
+	if (GuardState == AIState::Alerted)
+	{
+		return;
+	}
 
 	UE_LOG(LogTemp, Warning, TEXT("Hear Component:  %s"), *HeardInstigator->GetName());
 	DrawDebugSphere(GetWorld(), Location, 34.0f, 12, FColor::Red, false, 10.0f);
@@ -50,6 +58,8 @@ void AFPSAIGuard::OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, 
 
 	GetWorldTimerManager().ClearTimer(TimerHandle_ResetOrientation);
 	GetWorldTimerManager().SetTimer(TimerHandle_ResetOrientation, this, &AFPSAIGuard::ResetOrientation, 3.0f);
+
+	SetGuardState(AIState::Suspecious);
 }
 
 
@@ -57,6 +67,17 @@ void AFPSAIGuard::OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, 
 void AFPSAIGuard::ResetOrientation()
 {
 	SetActorRotation(OriginalRotation);
+	SetGuardState(AIState::Idle);
+}
+
+void AFPSAIGuard::SetGuardState(AIState NewState)
+{
+	if (GuardState != NewState)
+	{
+		GuardState = NewState;
+	}
+
+	OnStateChanged(GuardState);
 }
 
 // Called every frame

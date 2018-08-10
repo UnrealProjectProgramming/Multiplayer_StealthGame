@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPSGame-8634.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPSGame-700.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPSGame-8634.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FPSGame-700.pdb",
 			"Type": "SymbolFile"
 		},
 		{
