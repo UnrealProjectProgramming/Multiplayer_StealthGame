@@ -29,6 +29,10 @@ AFPSProjectile::AFPSProjectile()
 
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
+
+	// Networking..
+	SetReplicates(true);
+	SetReplicateMovement(true);
 }
 
 
@@ -39,6 +43,10 @@ void AFPSProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPr
 	{
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
 	}
-	MakeNoise(1.0f, Instigator);
-	Destroy();
+	// This runs only on the server and we it gets called on the sever it will tell the client " I destroied the actor on my machine please do it on yours.. " 
+	if (Role == ROLE_Authority)
+	{
+		MakeNoise(1.0f, Instigator);
+		Destroy();
+	}
 }
