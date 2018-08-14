@@ -13,7 +13,8 @@ enum class AIState : uint8
 {
 	Idle,
 	Suspecious,
-	Alerted
+	Alerted,
+	Patroling
 };
 
 UCLASS()
@@ -41,8 +42,9 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "AI")
 	void OnStateChanged(AIState NewState);
 
-
 	void SetGuardState(AIState NewState);
+
+	void MoveToNextPatrolPoint();
 
 
 protected:
@@ -56,11 +58,24 @@ protected:
 	UPROPERTY()
 	FTimerHandle TimerHandle_ResetOrientation;
 
+
 	AIState GuardState;
+
+	///* Let the guard go on patrol */
+	UPROPERTY(EditInstanceOnly, Category = "AI")
+	bool bPatrol;
+	///* First of two patrol points to patrol between */
+	UPROPERTY(EditInstanceOnly, Category = "AI", meta = (EditCondition = "bPatrol"))
+	AActor* FirstPatrolPoint;
+
+	///* Second of two patrol points to patrol between */
+	UPROPERTY(EditInstanceOnly, Category = "AI", meta = (EditCondition = "bPatrol"))
+	AActor* SecondPatrolPoint = nullptr;
+
+	//// The current point the actor is either moving to or standing at
+	AActor* CurrentPatrolPoint;
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	
+	virtual void Tick(float DeltaTime) override;	
 };

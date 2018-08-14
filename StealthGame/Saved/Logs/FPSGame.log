@@ -1,4 +1,4 @@
-﻿Log file open, 08/10/18 02:30:46
+﻿Log file open, 08/14/18 17:39:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FPSGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.397992
+LogStats: Stats thread started at 0.393611
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -150,345 +150,345 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.10-00.30.46:483][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.10-00.30.46:483][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.10-00.30.46:525][  0]LogHAL: Display: Platform has ~ 16 GB [17105502208 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.08.10-00.30.46:525][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.08.10-00.30.46:525][  0]LogInit: Going up to parent DeviceProfile []
-[2018.08.10-00.30.46:526][  0]LogInit: Computer: SALAMANDER
-[2018.08.10-00.30.46:526][  0]LogInit: User: morga
-[2018.08.10-00.30.46:526][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.08.10-00.30.46:526][  0]LogInit: High frequency timer resolution =3.609374 MHz
-[2018.08.10-00.30.46:526][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.08.10-00.30.46:526][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.10-00.30.46:526][  0]LogMemory: Process Physical Memory: 101.15 MB used, 101.15 MB peak
-[2018.08.10-00.30.46:526][  0]LogMemory: Process Virtual Memory: 85.71 MB used, 85.71 MB peak
-[2018.08.10-00.30.46:526][  0]LogMemory: Physical Memory: 7272.48 MB used,  9040.60 MB free, 16313.08 MB total
-[2018.08.10-00.30.46:526][  0]LogMemory: Virtual Memory: 4651.26 MB used,  9040.60 MB free, 134217728.00 MB total
-[2018.08.10-00.30.46:536][  0]LogInit: Using OS detected language (en-GB).
-[2018.08.10-00.30.46:536][  0]LogInit: Using OS detected locale (en-GB).
-[2018.08.10-00.30.46:537][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.08.10-00.30.46:812][  0]LogStreaming: Display: Took  0.276s to InitEngineTextLocalization.
-[2018.08.10-00.30.46:812][  0]LogInit: Setting process to per monitor DPI aware
-[2018.08.10-00.30.46:831][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.10-00.30.46:831][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.10-00.30.46:961][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.08.10-00.30.46:961][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.10-00.30.47:034][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2018.08.10-00.30.47:034][  0]LogD3D11RHI:       11127/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.08.10-00.30.47:035][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.10-00.30.47:035][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.10-00.30.47:035][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.10-00.30.47:041][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.10-00.30.47:041][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2018.08.10-00.30.47:041][  0]LogWindows: EnumDisplayDevices:
-[2018.08.10-00.30.47:041][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2018.08.10-00.30.47:041][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.08.10-00.30.47:041][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.08.10-00.30.47:041][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.08.10-00.30.47:041][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.08.10-00.30.47:041][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2018.08.10-00.30.47:041][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2018.08.10-00.30.47:041][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2018.08.10-00.30.47:041][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2018.08.10-00.30.47:070][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.10-00.30.47:088][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.08.10-00.30.47:130][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Intermediate/Shaders/WorkingDirectory/13676/).
-[2018.08.10-00.30.47:130][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morga/AppData/Local/Temp/UnrealShaderWorkingDir/912C17594F4101C46EBD69B88DC99B8D/'.
-[2018.08.10-00.30.47:339][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.08.10-00.30.47:348][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.08.10-00.30.47:363][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.08.10-00.30.47:372][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.08.10-00.30.47:382][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.08.10-00.30.47:391][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.10-00.30.47:400][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.10-00.30.47:410][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.10-00.30.47:414][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.10-00.30.47:476][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.08.10-00.30.47:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.10-00.30.47:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.10-00.30.47:543][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.10-00.30.47:544][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.10-00.30.47:553][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.08.10-00.30.47:561][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.08.10-00.30.47:570][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.08.10-00.30.47:579][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.08.10-00.30.47:585][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.08.10-00.30.47:585][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.10-00.30.47:618][  0]LogXGEController: Cleaning working directory: C:/Users/morga/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.08.10-00.30.47:618][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.10-00.30.47:618][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.10-00.30.47:618][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.10-00.30.48:144][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.10-00.30.48:203][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/morga/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.10-00.30.48:203][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morga/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.08.10-00.30.48:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.10-00.30.48:203][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.10-00.30.48:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.10-00.30.48:203][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.10-00.30.48:214][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.10-00.30.48:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.10-00.30.48:226][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.10-00.30.48:226][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.10-00.30.48:241][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.10-00.30.48:242][  0]LogSlate: Using FreeType 2.6.0
-[2018.08.10-00.30.48:242][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.10-00.30.48:300][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
-[2018.08.10-00.30.48:543][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.10-00.30.48:633][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.10-00.30.48:634][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.10-00.30.48:634][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.08.10-00.30.48:634][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.10-00.30.48:634][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.10-00.30.48:647][  0]LogNetVersion: FPSGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 746183129)
-[2018.08.10-00.30.49:026][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.052471 seconds
-[2018.08.10-00.30.49:031][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.08.10-00.30.49:031][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.08.10-00.30.49:031][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.10-00.30.49:647][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.10-00.30.49:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.10-00.30.49:878][  0]SourceControl: Source control is disabled
-[2018.08.10-00.30.49:878][  0]SourceControl: Source control is disabled
-[2018.08.10-00.30.49:878][  0]SourceControl: Source control is disabled
-[2018.08.10-00.30.49:879][  0]SourceControl: Source control is disabled
-[2018.08.10-00.30.50:035][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.10-00.30.50:071][  0]LogOcInput: OculusInput pre-init called
-[2018.08.10-00.30.50:125][  0]LogEngine: Initializing Engine...
-[2018.08.10-00.30.50:127][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.08.10-00.30.50:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.10-00.30.50:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.10-00.30.50:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.10-00.30.50:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.10-00.30.50:292][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.08.10-00.30.50:301][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.08.10-00.30.50:355][  0]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.10-00.30.50:365][  0]LogInit: FAudioDevice initialized.
-[2018.08.10-00.30.50:365][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.08.10-00.30.50:437][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/morga/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.10-00.30.50:437][  0]LogInit: Texture streaming: Enabled
-[2018.08.10-00.30.50:448][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.08.10-00.30.50:456][  0]LogInit: Transaction tracking system initialized
-[2018.08.10-00.30.50:470][  0]BlueprintLog: New page: Editor Load
-[2018.08.10-00.30.50:553][  0]LocalizationService: Localization service is disabled
-[2018.08.10-00.30.50:822][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.08.10-00.30.50:822][  0]LogCook: Display: Mobile HDR setting 1
-[2018.08.10-00.30.50:822][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.10-00.30.50:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.10-00.30.50:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.10-00.30.50:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.10-00.30.50:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.10-00.30.50:905][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/' took 0.01s
-[2018.08.10-00.30.50:905][  0]SourceControl: Source control is disabled
-[2018.08.10-00.30.50:905][  0]Cmd: MAP LOAD FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.10-00.30.50:905][  0]LightingResults: New page: Lighting Build
-[2018.08.10-00.30.50:907][  0]MapCheck: New page: Map Check
-[2018.08.10-00.30.50:907][  0]LightingResults: New page: Lighting Build
-[2018.08.10-00.30.51:082][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.08.10-00.30.51:090][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.08.10-00.30.51:113][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.10-00.30.51:148][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.244ms to complete.
-[2018.08.10-00.30.51:148][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.243
-[2018.08.10-00.30.51:224][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.30.51:229][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.30.51:235][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.30.51:241][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.30.51:244][  0]LogCollectionManager: Loaded 0 collections in 0.000763 seconds
-[2018.08.10-00.30.51:283][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/Collections/' took 0.01s
-[2018.08.10-00.30.51:283][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Developers/morga/Collections/' took 0.01s
-[2018.08.10-00.30.51:283][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Collections/' took 0.01s
-[2018.08.10-00.30.51:283][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.08.10-00.30.51:290][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2582 classes and 608 folders.
-[2018.08.10-00.30.51:308][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.10-00.30.51:329][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.08.10-00.30.51:341][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.08.10-00.30.51:344][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.08.10-00.30.51:346][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.08.10-00.30.51:346][  0]LogSlate: Took 0.000069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.08.10-00.30.51:424][  0]LogRenderer: Reallocating scene render targets to support 1576x836 Format 10 NumSamples 1 (Frame:1).
-[2018.08.10-00.30.51:553][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.08.10-00.30.51:553][  0]LogLoad: (Engine Initialization) Total time: 6.23 seconds
-[2018.08.10-00.30.51:553][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.08.10-00.30.51:584][  0]LogAssetRegistry: Asset discovery search completed in 3.3066 seconds
-[2018.08.10-00.30.51:585][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.08.10-00.30.51:586][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000144 seconds (updated 0 objects)
-[2018.08.10-00.30.51:587][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.08.10-00.30.52:904][  4]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.10-00.31.45:197][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.31.45:297][630]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.10-00.31.45:307][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.31.45:308][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.10-00.31.45:320][630]PIE: New page: PIE session: FirstPersonExampleMap (10 Aug 2018 04:31:45)
-[2018.08.10-00.31.45:320][630]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.08.10-00.31.45:340][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019584s)
-[2018.08.10-00.31.45:341][630]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.08.10-00.31.45:341][630]LogPlayLevel: PIE: World Init took: (0.000832s)
-[2018.08.10-00.31.45:341][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020860s)
-[2018.08.10-00.31.45:368][630]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.10-00.31.45:374][630]LogInit: FAudioDevice initialized.
-[2018.08.10-00.31.45:448][630]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.10-00.31.45:451][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.10-02.31.45
-[2018.08.10-00.31.45:452][630]LogWorld: Bringing up level for play took: 0.002609
-[2018.08.10-00.31.45:465][630]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2018.08.10-00.31.45:466][630]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.13
-[2018.08.10-00.31.45:466][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.31.49:524][110]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.31.50:023][170]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.31.53:524][587]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.31.54:024][647]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.31.55:113][742]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.31.57:036][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.31.57:036][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.31.57:069][957]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.10-00.31.57:070][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.31.57:090][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.31.57:136][960]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.08.10-00.32.05:417][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.32.07:571][773]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_GuardState.WBP_GuardState
-[2018.08.10-00.32.07:915][773]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.08.10-00.32.08:465][773]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.08.10-00.32.10:000][911]LogSlate: Window 'WBP_GuardState' being destroyed
-[2018.08.10-00.32.16:101][636]BlueprintLog: New page: Compile WBP_GuardState
-[2018.08.10-00.32.16:179][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_GuardState" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset" SILENT=true
-[2018.08.10-00.32.16:187][636]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_GuardState4BA1129949A0D8DB643604ABFD76CF0A.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset'
-[2018.08.10-00.32.16:471][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_GuardState" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset" SILENT=true
-[2018.08.10-00.32.16:529][666]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_GuardStateA766F0184DD7EC794B8F44AE2C0B1C1D.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset'
-[2018.08.10-00.32.18:294][877]LogEditorViewport: Clicking on Actor (LMB): BP_AIGuard_C (BP_AIGuard)
-[2018.08.10-00.32.20:260][ 97]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.08.10-00.32.20:868][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.32.25:251][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.32.27:890][974]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_AIGuard.BP_AIGuard
-[2018.08.10-00.32.39:377][295]BlueprintLog: New page: Compile BP_AIGuard
-[2018.08.10-00.32.39:584][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
-[2018.08.10-00.32.39:601][295]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_AIGuard899FD53C4F248D539A8246ACE8363AF4.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset'
-[2018.08.10-00.32.39:724][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
-[2018.08.10-00.32.39:735][300]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_AIGuardECB6CCB54227CF428605D7B566939628.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset'
-[2018.08.10-00.32.39:945][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
-[2018.08.10-00.32.39:956][324]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_AIGuardFBF0AF8B4F83D4C1EA901DBA90363E6F.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset'
-[2018.08.10-00.32.41:362][488]LogRenderer: Reallocating scene render targets to support 1576x1000 Format 10 NumSamples 1 (Frame:1).
-[2018.08.10-00.32.43:085][684]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.10-00.32.43:100][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.32.43:101][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.10-00.32.43:101][684]PIE: New page: PIE session: FirstPersonExampleMap (10 Aug 2018 04:32:43)
-[2018.08.10-00.32.43:101][684]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.08.10-00.32.43:115][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013138s)
-[2018.08.10-00.32.43:115][684]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.08.10-00.32.43:116][684]LogPlayLevel: PIE: World Init took: (0.000903s)
-[2018.08.10-00.32.43:116][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014460s)
-[2018.08.10-00.32.43:183][684]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.10-00.32.43:189][684]LogInit: FAudioDevice initialized.
-[2018.08.10-00.32.43:226][684]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.10-00.32.43:228][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.10-02.32.43
-[2018.08.10-00.32.43:229][684]LogWorld: Bringing up level for play took: 0.002435
-[2018.08.10-00.32.43:242][684]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap -0.095
-[2018.08.10-00.32.43:242][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.32.46:320][ 44]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.32.46:821][104]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.32.54:321][  4]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.32.56:338][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.32.56:339][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.32.56:371][246]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.10-00.32.56:372][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.32.56:394][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.32.56:449][248]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.08.10-00.32.56:865][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.33.16:653][650]BlueprintLog: New page: Compile WBP_GuardState
-[2018.08.10-00.33.16:799][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_GuardState" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset" SILENT=true
-[2018.08.10-00.33.16:807][650]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_GuardState0102258E42EFA09DB70374A01B9BB89B.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset'
-[2018.08.10-00.33.17:159][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_GuardState" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset" SILENT=true
-[2018.08.10-00.33.17:166][690]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_GuardState7BF7DE454190372EADD818840C6E6A0F.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset'
-[2018.08.10-00.33.19:074][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
-[2018.08.10-00.33.19:092][911]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_AIGuard7C44FF4E42EAFD589ECE96886356CC6F.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset'
-[2018.08.10-00.33.19:344][941]BlueprintLog: New page: Compile BP_AIGuard
-[2018.08.10-00.33.26:563][779]BlueprintLog: New page: Compile WBP_GuardState
-[2018.08.10-00.33.26:726][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_GuardState" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset" SILENT=true
-[2018.08.10-00.33.26:733][779]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_GuardState248C4AA546AF62C12A458DBA318C4312.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset'
-[2018.08.10-00.33.26:879][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_GuardState" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset" SILENT=true
-[2018.08.10-00.33.26:887][792]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_GuardStateC26ADEB04217124A0A665BBCA6ACE111.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset'
-[2018.08.10-00.33.36:372][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.33.36:446][899]BlueprintLog: New page: Compile BP_AIGuard
-[2018.08.10-00.33.36:580][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
-[2018.08.10-00.33.36:598][899]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_AIGuard9F9D1557403A2475E80088B2B515AB63.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset'
-[2018.08.10-00.33.37:024][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
-[2018.08.10-00.33.37:036][942]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/BP_AIGuard387F8111472D3C1EABE5AE8979483D1C.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Blueprints/BP_AIGuard.uasset'
-[2018.08.10-00.33.38:112][ 70]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.10-00.33.38:129][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.33.38:129][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.10-00.33.38:129][ 70]PIE: New page: PIE session: FirstPersonExampleMap (10 Aug 2018 04:33:38)
-[2018.08.10-00.33.38:129][ 70]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.08.10-00.33.38:142][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012412s)
-[2018.08.10-00.33.38:143][ 70]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.08.10-00.33.38:143][ 70]LogPlayLevel: PIE: World Init took: (0.000833s)
-[2018.08.10-00.33.38:143][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013681s)
-[2018.08.10-00.33.38:200][ 70]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.10-00.33.38:206][ 70]LogInit: FAudioDevice initialized.
-[2018.08.10-00.33.38:234][ 70]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.10-00.33.38:236][ 70]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.10-02.33.38
-[2018.08.10-00.33.38:237][ 70]LogWorld: Bringing up level for play took: 0.002424
-[2018.08.10-00.33.38:249][ 70]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.912
-[2018.08.10-00.33.38:249][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.33.41:025][398]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.33.41:529][458]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.33.47:421][165]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.33.47:422][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.33.47:453][165]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.10-00.33.47:454][165]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.33.47:480][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.33.47:551][167]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2018.08.10-00.33.48:326][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.33.48:583][268]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMapB02148784A2C0D8345BCCC9C845E3868.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
-[2018.08.10-00.33.48:687][268]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData54DFA193453B9C429061A48ABEEBA267.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.08.10-00.34.11:016][404]LogHotReload: New module detected: UE4Editor-FPSGame-700.dll
-[2018.08.10-00.34.11:700][407]LogHotReload: Starting Hot-Reload from IDE
-[2018.08.10-00.34.11:760][407]LogClass: AIState HotReload.
-[2018.08.10-00.34.11:766][407]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0003 seconds. Added 9 classes and 3 folders.
-[2018.08.10-00.34.11:770][407]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
-[2018.08.10-00.34.12:144][407]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2582 classes and 608 folders.
-[2018.08.10-00.34.12:148][407]Display: HotReload took  0.4s.
-[2018.08.10-00.36.15:682][ 86]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.10-00.36.15:696][ 86]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.36.15:696][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.10-00.36.15:697][ 86]PIE: New page: PIE session: FirstPersonExampleMap (10 Aug 2018 04:36:15)
-[2018.08.10-00.36.15:697][ 86]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.08.10-00.36.15:711][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013988s)
-[2018.08.10-00.36.15:712][ 86]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.08.10-00.36.15:712][ 86]LogPlayLevel: PIE: World Init took: (0.000902s)
-[2018.08.10-00.36.15:712][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015395s)
-[2018.08.10-00.36.15:749][ 86]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.10-00.36.15:756][ 86]LogInit: FAudioDevice initialized.
-[2018.08.10-00.36.15:785][ 86]LogLoad: Game class is 'BP_GameMode_C'
-[2018.08.10-00.36.15:787][ 86]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.10-02.36.15
-[2018.08.10-00.36.15:788][ 86]LogWorld: Bringing up level for play took: 0.002500
-[2018.08.10-00.36.15:801][ 86]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.464
-[2018.08.10-00.36.15:801][ 86]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.36.16:562][171]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.36.17:062][231]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.36.23:563][ 11]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.36.24:062][ 71]LogTemp: Warning: Hear Component:  BP_Player_2
-[2018.08.10-00.36.30:114][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.36.30:115][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.36.30:152][797]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.10-00.36.30:153][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.10-00.36.30:180][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.10-00.36.30:216][798]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2018.08.10-00.36.31:537][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.10-00.36.57:425][ 39]BlueprintLog: New page: Compile WBP_GuardState
-[2018.08.10-00.36.57:759][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_GuardState" FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset" SILENT=true
-[2018.08.10-00.36.57:767][ 56]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/WBP_GuardState58AD76A845D7B5DCC7BA0F8748C76C9E.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/UI/WBP_GuardState.uasset'
+[2018.08.14-15.39.33:922][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.14-15.39.33:922][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.14-15.39.33:928][  0]LogHAL: Display: Platform has ~ 16 GB [17105502208 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.14-15.39.33:928][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.14-15.39.33:928][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.14-15.39.33:928][  0]LogInit: Computer: SALAMANDER
+[2018.08.14-15.39.33:928][  0]LogInit: User: morga
+[2018.08.14-15.39.33:928][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.08.14-15.39.33:928][  0]LogInit: High frequency timer resolution =3.609376 MHz
+[2018.08.14-15.39.33:928][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.14-15.39.33:928][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.14-15.39.33:928][  0]LogMemory: Process Physical Memory: 101.52 MB used, 101.52 MB peak
+[2018.08.14-15.39.33:928][  0]LogMemory: Process Virtual Memory: 93.93 MB used, 93.93 MB peak
+[2018.08.14-15.39.33:928][  0]LogMemory: Physical Memory: 7708.47 MB used,  8604.61 MB free, 16313.08 MB total
+[2018.08.14-15.39.33:928][  0]LogMemory: Virtual Memory: 4659.26 MB used,  8604.61 MB free, 134217728.00 MB total
+[2018.08.14-15.39.33:939][  0]LogInit: Using OS detected language (en-GB).
+[2018.08.14-15.39.33:939][  0]LogInit: Using OS detected locale (en-GB).
+[2018.08.14-15.39.33:939][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.08.14-15.39.34:198][  0]LogStreaming: Display: Took  0.260s to InitEngineTextLocalization.
+[2018.08.14-15.39.34:198][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.14-15.39.34:215][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.14-15.39.34:215][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.14-15.39.34:319][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.08.14-15.39.34:319][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.14-15.39.34:368][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.08.14-15.39.34:368][  0]LogD3D11RHI:       11127/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.14-15.39.34:369][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.14-15.39.34:369][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.14-15.39.34:369][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.14-15.39.34:375][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.14-15.39.34:375][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.14-15.39.34:375][  0]LogWindows: EnumDisplayDevices:
+[2018.08.14-15.39.34:375][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.08.14-15.39.34:375][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.08.14-15.39.34:375][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.08.14-15.39.34:375][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.08.14-15.39.34:375][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.08.14-15.39.34:375][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.08.14-15.39.34:375][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.08.14-15.39.34:375][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.08.14-15.39.34:375][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.08.14-15.39.34:402][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.14-15.39.34:421][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.14-15.39.34:462][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Intermediate/Shaders/WorkingDirectory/6704/).
+[2018.08.14-15.39.34:462][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morga/AppData/Local/Temp/UnrealShaderWorkingDir/BFE9B33F4FA720854DD8F9A9EAF7FD7F/'.
+[2018.08.14-15.39.34:627][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.14-15.39.34:636][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.14-15.39.34:645][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.14-15.39.34:654][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.14-15.39.34:663][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.14-15.39.34:672][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.14-15.39.34:681][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.14-15.39.34:690][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.14-15.39.34:694][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:751][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.14-15.39.34:752][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.14-15.39.34:803][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.14-15.39.34:803][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.14-15.39.34:819][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.14-15.39.34:819][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.14-15.39.34:828][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.14-15.39.34:837][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.14-15.39.34:846][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.14-15.39.34:855][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.14-15.39.34:861][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.14-15.39.34:861][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.14-15.39.34:891][  0]LogXGEController: Cleaning working directory: C:/Users/morga/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.14-15.39.34:891][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.14-15.39.34:891][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.14-15.39.34:891][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.14-15.39.35:380][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.14-15.39.35:428][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/morga/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.14-15.39.35:428][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morga/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.14-15.39.35:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.14-15.39.35:428][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.14-15.39.35:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.14-15.39.35:428][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.14-15.39.35:438][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.14-15.39.35:450][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.14-15.39.35:450][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.14-15.39.35:450][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.14-15.39.35:464][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.14-15.39.35:465][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.14-15.39.35:466][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.14-15.39.35:522][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.08.14-15.39.35:739][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.14-15.39.35:834][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.14-15.39.35:835][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.14-15.39.35:835][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.14-15.39.35:835][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.14-15.39.35:835][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.14-15.39.35:846][  0]LogNetVersion: FPSGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 746183129)
+[2018.08.14-15.39.36:183][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.047038 seconds
+[2018.08.14-15.39.36:187][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.14-15.39.36:187][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.08.14-15.39.36:187][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.14-15.39.36:739][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.14-15.39.36:753][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.14-15.39.36:979][  0]SourceControl: Source control is disabled
+[2018.08.14-15.39.36:979][  0]SourceControl: Source control is disabled
+[2018.08.14-15.39.36:979][  0]SourceControl: Source control is disabled
+[2018.08.14-15.39.36:980][  0]SourceControl: Source control is disabled
+[2018.08.14-15.39.37:119][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.14-15.39.37:154][  0]LogOcInput: OculusInput pre-init called
+[2018.08.14-15.39.37:197][  0]LogEngine: Initializing Engine...
+[2018.08.14-15.39.37:199][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.08.14-15.39.37:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.14-15.39.37:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.14-15.39.37:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.14-15.39.37:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.14-15.39.37:357][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.14-15.39.37:366][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.14-15.39.37:428][  0]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.14-15.39.37:436][  0]LogInit: FAudioDevice initialized.
+[2018.08.14-15.39.37:436][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.14-15.39.37:625][  0]LogDerivedDataCache: Saved boot cache 0.19s 73MB C:/Users/morga/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.14-15.39.37:629][  0]LogInit: Texture streaming: Enabled
+[2018.08.14-15.39.37:639][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.14-15.39.37:667][  0]LogInit: Transaction tracking system initialized
+[2018.08.14-15.39.37:681][  0]BlueprintLog: New page: Editor Load
+[2018.08.14-15.39.37:750][  0]LocalizationService: Localization service is disabled
+[2018.08.14-15.39.37:936][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.14-15.39.37:936][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.14-15.39.37:936][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.14-15.39.37:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.14-15.39.37:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.14-15.39.37:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.14-15.39.37:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.14-15.39.38:003][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/' took 0.01s
+[2018.08.14-15.39.38:003][  0]SourceControl: Source control is disabled
+[2018.08.14-15.39.38:003][  0]Cmd: MAP LOAD FILE="../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.14-15.39.38:003][  0]LightingResults: New page: Lighting Build
+[2018.08.14-15.39.38:004][  0]MapCheck: New page: Map Check
+[2018.08.14-15.39.38:004][  0]LightingResults: New page: Lighting Build
+[2018.08.14-15.39.38:177][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.08.14-15.39.38:187][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.14-15.39.38:210][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.14-15.39.38:242][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 31.6ms to complete.
+[2018.08.14-15.39.38:242][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.239
+[2018.08.14-15.39.38:325][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.39.38:331][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.39.38:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.39.38:345][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.39.38:348][  0]LogCollectionManager: Loaded 0 collections in 0.000774 seconds
+[2018.08.14-15.39.38:387][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/Collections/' took 0.01s
+[2018.08.14-15.39.38:387][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Developers/morga/Collections/' took 0.01s
+[2018.08.14-15.39.38:387][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Collections/' took 0.01s
+[2018.08.14-15.39.38:387][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.14-15.39.38:395][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2582 classes and 608 folders.
+[2018.08.14-15.39.38:400][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.14-15.39.38:424][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.14-15.39.38:436][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.14-15.39.38:441][  0]LogSlate: Took 0.000495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.14-15.39.38:444][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.14-15.39.38:514][  0]LogRenderer: Reallocating scene render targets to support 1656x836 Format 10 NumSamples 1 (Frame:1).
+[2018.08.14-15.39.38:669][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.14-15.39.38:669][  0]LogLoad: (Engine Initialization) Total time: 5.92 seconds
+[2018.08.14-15.39.38:669][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.14-15.39.38:702][  0]LogAssetRegistry: Asset discovery search completed in 3.2020 seconds
+[2018.08.14-15.39.38:703][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.08.14-15.39.38:703][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2018.08.14-15.39.38:705][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.14-15.39.40:032][  4]LogSlate: Took 0.000574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.14-15.40.01:706][156]LogEditorViewport: Clicking on Actor (LMB): BP_AIGuard_C (BP_AIGuard)
+[2018.08.14-15.40.05:110][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.40.43:299][791]LogHotReload: New module detected: UE4Editor-FPSGame-92.dll
+[2018.08.14-15.40.44:335][795]LogHotReload: Starting Hot-Reload from IDE
+[2018.08.14-15.40.44:375][795]LogClass: Could not find existing class FPSAIGuard in package /Script/FPSGame for HotReload, assuming new class
+[2018.08.14-15.40.44:375][795]LogClass: Function OnNoiseHeard is new.
+[2018.08.14-15.40.44:375][795]LogClass: Function OnPawnSeen is new.
+[2018.08.14-15.40.44:375][795]LogClass: Function ResetOrientation is new.
+[2018.08.14-15.40.44:380][795]LogClass: AIState HotReload.
+[2018.08.14-15.40.44:384][795]LogHotReload: Re-instancing FPSAIGuard after hot-reload.
+[2018.08.14-15.40.44:555][795]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0003 seconds. Added 9 classes and 3 folders.
+[2018.08.14-15.40.44:557][795]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.08.14-15.40.44:718][795]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2582 classes and 608 folders.
+[2018.08.14-15.40.44:722][795]Display: HotReload took  0.4s.
+[2018.08.14-15.40.46:348][819]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.14-15.40.57:582][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.41.15:063][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.41.19:920][565]Cmd: DELETE
+[2018.08.14-15.41.19:920][565]Cmd: ACTOR DELETE
+[2018.08.14-15.41.19:979][565]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2018.08.14-15.41.19:998][565]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2018.08.14-15.41.20:955][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.41.36:159][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.14-15.41.36:294][439]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap475321F84CA667CD614FDE947E778A5B.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.08.14-15.41.36:462][439]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData0725B96240E30F2A00B7B4B4F67D4E61.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.08.14-15.41.45:232][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.14-15.41.45:381][476]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap3217E08A423A87407CED6FAE2E6CC5E0.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.08.14-15.41.45:445][476]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltDataF2C7E99C46BF2BB9CB04CEA6753FB211.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.08.14-15.41.50:862][ 68]LogEditorViewport: Clicking on Actor (LMB): BP_AIGuard_C (BP_AIGuard)
+[2018.08.14-15.41.55:895][503]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2018.08.14-15.41.58:412][800]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
+[2018.08.14-15.42.01:536][172]LogEditorViewport: Clicking on Actor (LMB): BP_AIGuard_C (BP_AIGuard)
+[2018.08.14-15.42.03:956][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.42.09:387][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.42.11:605][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.42.11:715][116]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.14-15.42.11:725][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.42.11:725][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.14-15.42.11:737][116]PIE: New page: PIE session: FirstPersonExampleMap (14 Aug 2018 19:42:11)
+[2018.08.14-15.42.11:737][116]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.08.14-15.42.11:750][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012646s)
+[2018.08.14-15.42.11:750][116]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.08.14-15.42.11:750][116]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2018.08.14-15.42.11:751][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013483s)
+[2018.08.14-15.42.11:779][116]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.14-15.42.11:785][116]LogInit: FAudioDevice initialized.
+[2018.08.14-15.42.11:847][116]LogLoad: Game class is 'BP_GameMode_C'
+[2018.08.14-15.42.11:850][116]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.14-17.42.11
+[2018.08.14-15.42.11:851][116]LogWorld: Bringing up level for play took: 0.002455
+[2018.08.14-15.42.11:871][116]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.08.14-15.42.11:872][116]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap -0.49
+[2018.08.14-15.42.11:872][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.42.17:819][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.42.17:820][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.42.17:849][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.14-15.42.17:850][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.42.17:872][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.42.17:921][831]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.08.14-15.42.19:714][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.14-15.42.19:852][ 45]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap67B9E0294BBE1A87CB5EE6B4D525FBF5.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.08.14-15.42.19:915][ 45]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltDataF5F3871545E4531F5208D3B670A06441.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.08.14-15.43.34:086][400]LogHotReload: New module detected: UE4Editor-FPSGame-639.dll
+[2018.08.14-15.43.34:428][402]LogHotReload: Starting Hot-Reload from IDE
+[2018.08.14-15.43.34:461][402]LogClass: AIState HotReload.
+[2018.08.14-15.43.34:467][402]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0003 seconds. Added 9 classes and 3 folders.
+[2018.08.14-15.43.34:469][402]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.08.14-15.43.34:513][402]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2582 classes and 608 folders.
+[2018.08.14-15.43.34:517][402]Display: HotReload took  0.1s.
+[2018.08.14-15.43.40:048][924]LogEditorViewport: Clicking on Actor (LMB): BP_AIGuard_C (BP_AIGuard)
+[2018.08.14-15.43.41:887][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.43.43:364][197]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap4F7DFD394B3DA22BFDC49BB0165D8351.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.08.14-15.43.43:428][197]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData6F29D34547F5BF9B22957FAC9E526EC8.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.08.14-15.43.44:171][261]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.14-15.43.44:181][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.43.44:181][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.14-15.43.44:181][261]PIE: New page: PIE session: FirstPersonExampleMap (14 Aug 2018 19:43:44)
+[2018.08.14-15.43.44:181][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.08.14-15.43.44:192][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011186s)
+[2018.08.14-15.43.44:193][261]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.08.14-15.43.44:193][261]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2018.08.14-15.43.44:193][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012039s)
+[2018.08.14-15.43.44:221][261]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.14-15.43.44:226][261]LogInit: FAudioDevice initialized.
+[2018.08.14-15.43.44:258][261]LogLoad: Game class is 'BP_GameMode_C'
+[2018.08.14-15.43.44:268][261]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.14-17.43.44
+[2018.08.14-15.43.44:269][261]LogWorld: Bringing up level for play took: 0.009287
+[2018.08.14-15.43.44:287][261]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap -0.075
+[2018.08.14-15.43.44:287][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.43.45:475][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.43.45:476][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.43.45:510][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.14-15.43.45:511][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.43.45:536][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.43.45:578][405]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.08.14-15.43.49:140][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.44.04:041][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.44.09:616][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.44.12:963][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.44.13:050][263]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.14-15.44.13:059][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.13:059][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.14-15.44.13:059][263]PIE: New page: PIE session: FirstPersonExampleMap (14 Aug 2018 19:44:13)
+[2018.08.14-15.44.13:059][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.08.14-15.44.13:072][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013043s)
+[2018.08.14-15.44.13:073][263]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.08.14-15.44.13:073][263]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.08.14-15.44.13:073][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013958s)
+[2018.08.14-15.44.13:105][263]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.14-15.44.13:111][263]LogInit: FAudioDevice initialized.
+[2018.08.14-15.44.13:141][263]LogLoad: Game class is 'BP_GameMode_C'
+[2018.08.14-15.44.13:152][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.14-17.44.13
+[2018.08.14-15.44.13:153][263]LogWorld: Bringing up level for play took: 0.009132
+[2018.08.14-15.44.13:167][263]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.805
+[2018.08.14-15.44.13:167][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.15:432][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.15:432][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.44.15:463][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.14-15.44.15:464][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.15:484][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.44.15:540][538]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.08.14-15.44.47:640][750]LogHotReload: New module detected: UE4Editor-FPSGame-96.dll
+[2018.08.14-15.44.48:316][753]LogHotReload: Starting Hot-Reload from IDE
+[2018.08.14-15.44.48:352][753]LogClass: AIState HotReload.
+[2018.08.14-15.44.48:357][753]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0003 seconds. Added 9 classes and 3 folders.
+[2018.08.14-15.44.48:359][753]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.08.14-15.44.48:403][753]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2582 classes and 608 folders.
+[2018.08.14-15.44.48:408][753]Display: HotReload took  0.1s.
+[2018.08.14-15.44.51:110][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.44.51:202][818]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.14-15.44.51:212][818]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.51:212][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.14-15.44.51:212][818]PIE: New page: PIE session: FirstPersonExampleMap (14 Aug 2018 19:44:51)
+[2018.08.14-15.44.51:212][818]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.08.14-15.44.51:224][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012016s)
+[2018.08.14-15.44.51:225][818]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.08.14-15.44.51:225][818]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2018.08.14-15.44.51:225][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013098s)
+[2018.08.14-15.44.51:250][818]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.14-15.44.51:256][818]LogInit: FAudioDevice initialized.
+[2018.08.14-15.44.51:289][818]LogLoad: Game class is 'BP_GameMode_C'
+[2018.08.14-15.44.51:293][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.14-17.44.51
+[2018.08.14-15.44.51:293][818]LogWorld: Bringing up level for play took: 0.003066
+[2018.08.14-15.44.51:306][818]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.944
+[2018.08.14-15.44.51:306][818]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.56:271][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.56:271][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.44.56:310][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.14-15.44.56:310][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.14-15.44.56:334][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.14-15.44.56:377][416]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.08.14-15.53.53:126][183]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_Auto112B8F29F4CD41844817E0CA516C274BA.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.08.14-15.53.53:147][183]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPersonExampleMap' took 0.458
+[2018.08.14-15.53.53:147][183]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.458
+[2018.08.14-15.56.44:927][945]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.14-15.56.45:052][945]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMapBAF7372047AF6FA57ABCC392D3D8E0FC.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.08.14-15.56.45:118][945]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData15C3284C4034CF5DA5AB28BFE14618DD.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.08.14-15.56.45:159][949]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.14-15.56.45:507][949]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMapF54D90DF4F551813484C5B807BFB5089.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.08.14-15.56.45:575][949]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData41B0E2B3424C55E6C55CADBAFC5A6392.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.08.14-15.56.45:837][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.14-15.56.46:151][993]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMapCBC3581E44DB4444C35611AB4542C6A1.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2018.08.14-15.56.46:218][993]LogSavePackage: Moving '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Saved/FirstPersonExampleMap_BuiltData221CA7E74AA08CD626C9278D316038AB.tmp' to '../../../../../../Programming/Unreal/Multiplayer_StealthGame/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'

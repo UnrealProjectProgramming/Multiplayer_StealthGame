@@ -5,6 +5,8 @@
 #include "Perception/PawnSensingComponent.h"
 #include "DrawDebugHelpers.h"
 #include "FPSGameMode.h"
+#include "AIModule/Classes/Blueprint/AIBlueprintHelperLibrary.h"
+
 
 // Sets default values
 AFPSAIGuard::AFPSAIGuard()
@@ -17,7 +19,20 @@ AFPSAIGuard::AFPSAIGuard()
 	SensingComponent->OnSeePawn.AddDynamic(this, &AFPSAIGuard::OnPawnSeen);
 	SensingComponent->OnHearNoise.AddDynamic(this, &AFPSAIGuard::OnNoiseHeard);
 
-	GuardState = AIState::Idle;
+	GuardState = AIState::Patroling;
+}
+
+void AFPSAIGuard::MoveToNextPatrolPoint()
+{
+	if (CurrentPatrolPoint == nullptr || CurrentPatrolPoint == SecondPatrolPoint )
+	{
+		CurrentPatrolPoint = FirstPatrolPoint;
+	}
+	else
+	{
+		CurrentPatrolPoint = SecondPatrolPoint;
+	}
+	UAIBlueprintHelperLibrary::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
 }
 
 // Called when the game starts or when spawned
@@ -26,6 +41,11 @@ void AFPSAIGuard::BeginPlay()
 	Super::BeginPlay();
 
 	OriginalRotation = GetActorRotation();
+
+	if (bPatrol)
+	{
+		MoveToNextPatrolPoint();
+	}
 }
 
 void AFPSAIGuard::OnPawnSeen(APawn* SeenPawn)
@@ -37,6 +57,12 @@ void AFPSAIGuard::OnPawnSeen(APawn* SeenPawn)
 	MyGameMode->MissionComplete(SeenPawn, false);
 
 	SetGuardState(AIState::Alerted);
+
+	AController* MyController = GetController();
+	if (MyController)
+	{
+		MyController->StopMovement();
+	}
 }
 
 void AFPSAIGuard::OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, float Volume)
@@ -60,6 +86,12 @@ void AFPSAIGuard::OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, 
 	GetWorldTimerManager().SetTimer(TimerHandle_ResetOrientation, this, &AFPSAIGuard::ResetOrientation, 3.0f);
 
 	SetGuardState(AIState::Suspecious);
+
+	AController* MyController = GetController();
+	if (MyController)
+	{
+		MyController->StopMovement();
+	}
 }
 
 
@@ -67,7 +99,12 @@ void AFPSAIGuard::OnNoiseHeard(APawn* HeardInstigator, const FVector& Location, 
 void AFPSAIGuard::ResetOrientation()
 {
 	SetActorRotation(OriginalRotation);
-	SetGuardState(AIState::Idle);
+	SetGuardState(AIState::Patroling);
+
+	if (bPatrol)
+	{
+		MoveToNextPatrolPoint();
+	}
 }
 
 void AFPSAIGuard::SetGuardState(AIState NewState)
@@ -80,10 +117,22 @@ void AFPSAIGuard::SetGuardState(AIState NewState)
 	OnStateChanged(GuardState);
 }
 
+
 // Called every frame
 void AFPSAIGuard::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (CurrentPatrolPoint)
+	{
+		FVector DeltaLocation = GetActorLocation() - CurrentPatrolPoint->GetActorLocation();
+		float DistanceToGoal = DeltaLocation.Size();
+
+		if (DistanceToGoal < 200)
+		{
+			MoveToNextPatrolPoint();
+		}
+	}
 
 }
 
