@@ -48,6 +48,19 @@ void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 }
 
 
+void AFPSCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (!IsLocallyControlled())
+	{
+		FRotator NewRot = CameraComponent->RelativeRotation;
+		NewRot.Pitch = RemoteViewPitch * 360.f / 255.f;
+
+		CameraComponent->SetRelativeRotation(NewRot);
+	}
+}
+
 void AFPSCharacter::Fire()
 {
 	ServerFire();
@@ -93,7 +106,7 @@ void AFPSCharacter::ServerFire_Implementation()
 
 bool AFPSCharacter::ServerFire_Validate()
 {
-	// used on server side.
+	// Cheat Protection
 	return true;
 }
 
