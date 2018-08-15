@@ -39,6 +39,9 @@ protected:
 	UFUNCTION()
 	void ResetOrientation();
 
+	UFUNCTION()
+	void OnRep_GuardState();
+
 	UFUNCTION(BlueprintImplementableEvent, Category = "AI")
 	void OnStateChanged(AIState NewState);
 
@@ -58,7 +61,7 @@ protected:
 	UPROPERTY()
 	FTimerHandle TimerHandle_ResetOrientation;
 
-
+	UPROPERTY(ReplicatedUsing=OnRep_GuardState)
 	AIState GuardState;
 
 	///* Let the guard go on patrol */
