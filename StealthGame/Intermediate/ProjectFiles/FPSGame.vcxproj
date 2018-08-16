@@ -276,6 +276,7 @@
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSHUD.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSLaunchPad.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSObjectiveActor.cpp" />
+    <ClCompile Include="..\..\Source\FPSGame\Private\FPSPlayerController.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSProjectile.cpp" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSAIGuard.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSBlackHole.h" />
@@ -286,6 +287,7 @@
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSHUD.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSLaunchPad.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSObjectiveActor.h" />
+    <ClInclude Include="..\..\Source\FPSGame\Public\FPSPlayerController.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSProjectile.h" />
   </ItemGroup>
   <PropertyGroup>

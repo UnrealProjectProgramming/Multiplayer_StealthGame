@@ -25,17 +25,22 @@ void AFPSGameMode::MissionComplete(APawn* InstigatorPawn, bool bMissionSuccess)
 	if (!InstigatorPawn) { return; }
 
 
-	APlayerController* MyPlayerController = Cast<APlayerController>(InstigatorPawn->GetController());
-	if (!MyPlayerController) { return; }
 
 	TArray<AActor*> FetchedActors;
 	UGameplayStatics::GetAllActorsOfClass(this, Spectating, FetchedActors);
-	AActor* NewSpectateView = nullptr;
 
 	if (FetchedActors.Num() > 0)
 	{
+		AActor* NewSpectateView = nullptr;
 		NewSpectateView = FetchedActors[0];
-		MyPlayerController->SetViewTargetWithBlend(NewSpectateView, 0.5f, EViewTargetBlendFunction::VTBlend_Cubic);
+		for (FConstPlayerControllerIterator it = GetWorld()->GetPlayerControllerIterator(); it; it++)
+		{
+			APlayerController* PC = it->Get();
+			if (PC)
+			{
+				PC->SetViewTargetWithBlend(NewSpectateView, 0.5f, EViewTargetBlendFunction::VTBlend_Cubic);
+			}
+		}
 	}
 
 	AFPSGameState* GS = GetGameState<AFPSGameState>();
