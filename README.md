@@ -2,6 +2,9 @@
 #### Engine Version 4.21.0
 ### Where you basically distract the A.I guard to steal the objective and go to extraction zone.
 
+### Gameplay video 
+[Gameplay Video](https://youtu.be/aH94EIWkLVM)
+
 ## What I did in this Project
   * Simple A.I Guard State Machine that protects the objective 
   * Game logic ( Taking the objective, going to extraction point, ending the game, or get spotted and lose)
@@ -11,6 +14,8 @@
 ________________________________________________________________________________________________________________________________________
 
 ### Simple A.I State Machine consist of Idle, Suspecious, Patrolling, Aletrted.
+
+[AI State Video](https://youtu.be/Px2AN95vw-Y)
 
 ```cpp
 // This is the .h 
