@@ -187,7 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSProjectile, 723056071);
+	IMPLEMENT_CLASS(AFPSProjectile, 2486215231);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSProjectile(Z_Construct_UClass_AFPSProjectile, &AFPSProjectile::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFPSProjectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSProjectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

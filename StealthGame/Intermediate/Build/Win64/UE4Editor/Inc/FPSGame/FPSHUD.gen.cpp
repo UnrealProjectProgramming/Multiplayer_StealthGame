@@ -69,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSHUD, 768308205);
+	IMPLEMENT_CLASS(AFPSHUD, 3512377555);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSHUD(Z_Construct_UClass_AFPSHUD, &AFPSHUD::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFPSHUD"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSHUD);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

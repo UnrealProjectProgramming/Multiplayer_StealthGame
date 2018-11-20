@@ -111,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSObjectiveActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSObjectiveActor, 3926792502);
+	IMPLEMENT_CLASS(AFPSObjectiveActor, 1428573902);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSObjectiveActor(Z_Construct_UClass_AFPSObjectiveActor, &AFPSObjectiveActor::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFPSObjectiveActor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSObjectiveActor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
