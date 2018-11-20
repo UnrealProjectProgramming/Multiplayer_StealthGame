@@ -1,4 +1,5 @@
 # Simple Stealth multiplayer game
+#### Engine Version 4.21.0
 ### Where you basically distract the A.I guard to steal the objective and go to extraction zone.
 
 ## What I did in this Project
@@ -349,9 +350,97 @@ ________________________________________________________________________________
 ### The Gameplay Things (Blackhole that pulls and the launchPad)
 
 
-#### GIF and code snippit for the blackhole
+#### GIF and code snippit for the blackhole and the launch pad
+
 ![Alt Text](https://media.giphy.com/media/dgoGAAfuRAmyE1p4OG/giphy.gif)
+
+![Alt Text](https://media.giphy.com/media/1yMuHuwi4j8zYITzgj/giphy.gif)
 
 ```
 
-#### Code snippit for the launch pad
+#### Code snippit for the blackhole
+
+```cpp
+// Sets default values
+AFPSBlackHole::AFPSBlackHole()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+	SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComponent"));
+	RootComponent = SceneComponent;
+	MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
+	MeshComp->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	InnerSphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("InnerSphereComp"));
+	InnerSphereComponent->SetSphereRadius(100);
+
+	// Bind to Event
+	OuterSphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("OuterSphereComp"));
+	OuterSphereComponent->SetSphereRadius(3000);
+
+	// Setting Up Attachment
+	MeshComp->SetupAttachment(SceneComponent);
+	InnerSphereComponent->SetupAttachment(SceneComponent);
+	OuterSphereComponent->SetupAttachment(SceneComponent);
+}
+
+// Called every frame
+void AFPSBlackHole::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	OuterSphereComponent->GetOverlappingComponents(Boxes);
+	for (UPrimitiveComponent* Box : Boxes)
+	{
+		Box->AddRadialForce(GetActorLocation(), OuterSphereComponent->GetScaledSphereRadius(), -2000.0f, ERadialImpulseFalloff::RIF_Constant, true);
+	}
+
+}
+```
+#### Code snippit for the launchPad
+
+```cpp
+// Sets default values
+AFPSLaunchPad::AFPSLaunchPad()
+{
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+	BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Component"));
+	StaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Component"));
+	RootComponent = StaticMeshComp;
+	BoxComp->SetupAttachment(RootComponent);
+	BoxComp->OnComponentBeginOverlap.AddDynamic(this, &AFPSLaunchPad::LaunchOverlapedObjects);
+
+	LaunchPitchAngle = 35.5f;
+	LaunchStrength = 1500.0f;
+
+}
+
+void AFPSLaunchPad::LaunchOverlapedObjects(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	FRotator LaunchDirection = GetActorRotation();
+	LaunchDirection.Pitch += LaunchPitchAngle;
+	FVector LaunchVelocity = LaunchDirection.Vector() * LaunchStrength;
+	ACharacter* MyCharacter = Cast<ACharacter>(OtherActor);
+
+	if (MyCharacter)
+	{
+		MyCharacter->LaunchCharacter(LaunchVelocity, true, true);
+		//Spawn FX
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ActivateLaunchPadEmitter, GetActorLocation());
+	}
+	else if (OtherComp && OtherComp->IsSimulatingPhysics())
+	{
+		OtherComp->AddImpulse(LaunchVelocity, NAME_None, true);
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ActivateLaunchPadEmitter, GetActorLocation());
+	}
+}
+
+```
+________________________________________________________________________________________________________________________________________
+
+### Handle Simple UI
+![Alt Text](https://i.imgur.com/ZPdMi4J.png)
+
+![Alt Text](https://i.imgur.com/gzqAZoQ.png)
